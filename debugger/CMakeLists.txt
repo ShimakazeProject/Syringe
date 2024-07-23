@@ -27,7 +27,7 @@ file(GLOB_RECURSE src
 	"*.cpp"
 )
 
-include_directories("${CMAKE_SOURCE_DIR}/utilities")
+include_directories("../utilities")
 
 add_library (debugger_lib STATIC ${src})
 
