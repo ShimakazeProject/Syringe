@@ -26,10 +26,10 @@ file(GLOB_RECURSE src
 	"*.cpp"
 )
 
-include_directories("${CMAKE_SOURCE_DIR}/utilities")
-include_directories("${CMAKE_SOURCE_DIR}/debugger")
-include_directories("${CMAKE_SOURCE_DIR}/include")
-include_directories("${CMAKE_SOURCE_DIR}/injector")
+include_directories("../utilities")
+include_directories("../debugger")
+include_directories("../include")
+include_directories("../injector")
 
 add_executable (syringe ${src})
 
